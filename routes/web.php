@@ -23,7 +23,6 @@ Route::get('/test', function () {
 
 Route::get('/exercise/{id}', 'ExerciseController@index');
 
-Route::resource('/ex', 'ResourceController');
 
 Route::get('/contact', function(){  
   return view('Contact',['name'=>'Miras'], ['surname'=>'Almassuly']);  
